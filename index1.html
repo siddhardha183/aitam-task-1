@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name">First name:</label>
+        <input type="text" placeholder="Enter your first name" id="name">
+        <br>
+        <br>
+        <label for="name">Last name:</label>
+        <input type="text" placeholder="Enter your Last name" id="name">
+        <br>
+        <br>
+        <label for="name">Email:</label>
+        <input type="text" placeholder="Enter your name" id="email">
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Education section
+        </legend>    
+        <label for="degree">Degree</label>
+        <input type="text" placeholder="Enter your degree">
+        <br>
+        <br>
+        <label for="Institution">Institution</label>
+        <input type="text" placeholder="Enter your Institution">
+
+    </fieldset>
+    <br>
+    <textarea placeholder="Enter your feedback" rows="4" cols="30"></textarea>
+    <br>
+    <fieldset>
+        <legend>college</legend>
+    <select name="college">
+        <option value="aitam">aitam</option>
+        <option value="gmr">gmr</option>
+        <option value="raghu">raghu</option>
+        <option value="mgvr">mvgr</option>
+        <option value="shivani">shivani</option>
+    </select>
+</fieldset>
+    <br>
+    <fieldset>
+        <legend>course</legend>
+    <select name="course">
+        <optgroup label="IT">
+            <option value="csm">csm</option>
+            <option value="csd">csd</option>
+        </optgroup>
+        <optgroup label="non-IT">
+            <option value="mechanical">mechanical</option>
+            <option value="civil">civil</option>
+        </optgroup>
+    </select>
+</fieldset>
+<br>
+    </form>
+    <input type="text" list="browser" placeholder="enter your fav browser" >
+    <datalist id="browser">
+        <option value="chrome">chrome</option>
+        <option value="safari">safari</option>
+        <option value="edge">edge</option>
+        <option value="yahoo">yahoo</option>
+    </datalist>
+    <br>
+    <br>
+    <form oninput="result.value" = parseInt(a.value)+parseInt(b.value)></form>
+    <button>click here to submit</button>
+</body>
+</html>
