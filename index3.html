@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+    <legend>Upcoming Events</legend>
+
+    <h2>1. Web Development Workshop</h2>
+    <p>
+      Join us for an intensive workshop on web development, where you'll learn HTML, CSS, and JavaScript. 
+      This workshop is perfect for beginners looking to kickstart their web development journey.
+    </p>
+    <p><b>Date:</b>20th December 2024</p>
+    <p><b>Time:</b>10:00 AM - 4:00 PM</p>
+    <p><b>Venue:</b>AITAM G-Block seminar hall</p>
+  
+    <h2>2. Digital Marketing Seminar</h2>
+    <p>
+      Explore the world of digital marketing in this seminar, featuring industry experts who will share insights
+      into SEO, social media strategies, and more. Ideal for marketers and business owners.
+    </p>
+    <p><b>Date:</b>25th December 2024</p>
+    <p><b>Time:</b>2:00 PM - 6:00 PM</p>
+    <p><b>Venue:</b>AITAM F-Block seminar hall</p>
+  
+    <h2>3. Hackathon:Code Sprint 2024</h2>
+    <p>
+      Participate in our annual hackathon and compete with talented developers to create innovative solutions
+      for real-world problems. Exciting prizes await the winners!
+    </p>
+    <p><b>Date:</b>30th December 2024</p>
+    <p><b>Time:</b>9:00 AM - 9:00 PM</p>
+    <p><b>Venue:</b>student activity center</p>
+    <h2>4. cultural Activities</h2>
+    <p>
+        Experience the magic of live music and dance at our annual Music Fest! Talented bands and solo artists 
+        will perform genres ranging from classical to contemporary. Whether you enjoy soothing melodies or energetic beats, 
+        this event has something for everyone.
+    </p>
+    <p><b>Date:</b>31th December 2024</p>
+    <p><b>Time:</b>9:00 AM - 9:00 PM</p>
+    <p><b>Venue:</b>Adityanjali</p>
+</fieldset>
+</form>
+<h1>Event Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="number" required>
+            <br>
+            <br>
+            <label for="gender">gender:</label>
+            <input type="radio">male
+            <input type="radio">female
+            <br>
+            <br>
+        </fieldset>
+        <form>
+            <fieldset>
+                <legend>Accomodation</legend>
+                <select name="Accomodation">
+                    <option value="Day scholar">Day scholar</option>
+                    <option value="Hostler">Hostler</option>
+                </select>
+                <br>
+                <br>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Event Preferences</legend>
+                <select name="Event Preferences">
+                    <option value="workshop">workshop</option>
+                    <option value="seminar">seminar</option>
+                    <option value="Hackathon">Hackathon</option>
+                    <option value="cultural">workshop</option>
+                </select>
+                <br>
+                <br>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>feedback</legend>
+                <textarea placeholder="Enter your feedback" rows="4" cols="30"></textarea>
+            </fieldset>
+        </form>
+
+        <fieldset>
+            <legend>Pass Collection</legend>
+            <label for="upload_pass">Upload Pass:</label>
+            <input type="file" required>
+            <br>
+            <br>
+        </fieldset>
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
